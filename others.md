@@ -1,0 +1,9 @@
+1. defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+2. defaults write com.apple.menuextra.battery ShowTime -string "YES"
+3. defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+4. defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+5. defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+6. defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
+7. defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+8. defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
+9. defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
