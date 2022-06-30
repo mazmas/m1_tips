@@ -7,4 +7,5 @@
 % defaults write com.apple.dock largesize -int 512; killall Dock
 % defaults write com.apple.dock tilesize -integer 8; killall Dock
 % defaults write com.apple.dock autohide-time-modifier -float 1; killall Dock
-% defaults delete com.apple.dock; killall Dock
+% defaults write com.apple.dock autohide-delay -float 0; killall Dock
+% defaults write com.apple.dock autohide-time-modifier -float 0.4; killall Dock
