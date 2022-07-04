@@ -14,3 +14,5 @@
 >    zsh: segmentation fault (core dumped)  ./your_code
 
 7. Check if core file created in /cores
+8. To allow persistent ulimit settings, run:
+>     % sudo launchctl limit core unlimited
